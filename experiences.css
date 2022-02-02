@@ -1,0 +1,42 @@
+body{
+  background-color:aqua;
+  
+  background-repeat: no-repeat, repeat;
+  background-blend-mode: overlay;
+  background-size: cover;
+  grid-template-columns: min-content 1fr;
+  
+  background-attachment: fixed;
+  background-position: center; 
+}
+img {
+  float: right;
+}
+div {
+  border: 3px solid blue;
+  padding: 5px;
+}
+
+
+
+.img2 {
+  float: right;
+  background-color:blue;
+}
+
+.clearfix{
+  display: flex;
+  width: 80vw;
+  flex-wrap: wrap;
+}
+.clearfix p{
+  margin-left: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  background-color:blue;
+  
+}
